@@ -1,0 +1,1 @@
+﻿export type Campaign = { id:string; title:string; category:string; organization:string; location:string; raised:number; goal:number; daysLeft:number; image:string; imageAlt:string; description:string; detail:string; featured?:boolean }

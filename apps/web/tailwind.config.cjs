@@ -1,0 +1,1 @@
+﻿module.exports = { content: ['./index.html','./src/**/*.{js,ts,jsx,tsx}'], theme: { extend: { colors: { ink:'#152a25',forest:'#176b4a',leaf:'#d9f4df',canvas:'#f7f9f7' }, boxShadow:{soft:'0 12px 36px rgba(21,42,37,.07)'} } }, plugins: [] }

@@ -1,0 +1,14 @@
+﻿{
+  "name": "charitychain",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Educational blockchain-based charity donation transparency prototype",
+  "workspaces": ["apps/web", "apps/api", "packages/contracts"],
+  "scripts": {
+    "dev:web": "npm run dev -w @charitychain/web",
+    "dev:api": "npm run dev -w @charitychain/api",
+    "dev:chain": "npm run node -w @charitychain/contracts",
+    "build": "npm run build -w @charitychain/web && npm run build -w @charitychain/api",
+    "test": "npm run test -w @charitychain/web && npm run test -w @charitychain/api && npm run test -w @charitychain/contracts"
+  }
+}
